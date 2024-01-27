@@ -2,10 +2,10 @@ import smtplib
 from email.mime.text import MIMEText
 
 subject = "Test message"
-body = "i am harmony, i hope you being good today, this is just a test about automatizing emails, IDK if the correct term, but you probably got it"
-sender = "ezequielcruz018@gmail.com"
-recipients=[""]
-password="luwb sxlt rcip vrej"
+body = "your message here"
+sender = "your email here "
+recipients=["Destiny email here"]
+password="your gmail api password here"
 
 def send_email(subject,body,sender,recipients,password):
     msg = MIMEText(body)
