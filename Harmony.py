@@ -107,9 +107,16 @@ def saludo_inicial(nombre, animo):
     else:
         momento = f"Buenas noches {nombre}"
 
-    hablar(f"{momento}, Soy harmony, tu asistente virtual, veo que hoy estás {animo}, ")
-    mensaje_opciones = "Cuentas con un menú interactivo. Elige a gusto"
-    hablar(mensaje_opciones)
+    hablar(f"{momento}, Soy harmony, tu asistente virtual.")
+    
+    if animo.lower() in hablar == "muy bien" | "bien" | "excelente":
+        return hablar(f"Excelente escuchar eso${nombre}, que deseas hacer para continuar con este grandioso dia ")
+    
+    elif animo.lower()  in hablar == "triste" | "mal":
+        return hablar(f"lamento que te encuentres ${animo}, vamos a escuchar tu musica favorita o iniciar la app que te gusta, para subir ese animo")
+    
+    else:
+        hablar(f"Desplegare el menu de opciones.")
 
 
 def pedir_aplicacion():
