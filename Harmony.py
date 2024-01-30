@@ -12,7 +12,7 @@ import threading
 import openai
 from pathlib import Path
 
-openai.api_key = "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"
+openai.api_key = ""
 voz = "HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Speech\\Voices\\Tokens\\TTS_MS_ES-MX_SABINA_11.0"
 
 
