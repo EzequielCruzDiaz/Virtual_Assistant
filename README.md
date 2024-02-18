@@ -79,7 +79,4 @@
   <h2>Contribuciones</h2>
   <p>¡Las contribuciones son bienvenidas! Si tienes ideas para mejorar este proyecto, siéntete libre de bifurcarlo y enviar pull requests.</p>
 
-  <h2>Licencia</h2>
-  <p>Este proyecto está bajo la Licencia MIT. Consulta el archivo <code>LICENSE</code> para más detalles.</p>
-</body>
-</html>
+
