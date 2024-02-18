@@ -1,3 +1,4 @@
+<details>
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -41,6 +42,7 @@
   </style>
 </head>
 <body>
+</details>
   <h1>Harmony - Asistente Virtual</h1>
 
   <h2>Descripción</h2>
